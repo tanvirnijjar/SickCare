@@ -1,0 +1,229 @@
+  body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #d70b0b, #96e6a1);
+    min-height: 100vh;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+header{
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+h1{
+    font-size: 60px;
+    margin: 0;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+p{
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.hero{
+    width: 80%;
+    max-width: 700px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: #b0101d;
+    transform: scale(1.05);
+}
+.disease-section{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.disease-section h2{
+    color: white;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px;
+}
+
+.card{
+    background: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    box-shadow: 0 15px 30px rgba(red, green, blue, alpha);
+}
+
+.card h3{
+    color: #d00d0d;
+}
+
+.card p{
+    color: #555;
+}
+.fever-container{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.fever-container h1{
+    color: white;
+    font-size: 50px;
+}
+
+.intro{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.section{
+    margin-top: 40px;
+}
+
+.section h2{
+    color: white;
+}
+
+.tip-card{
+    display: inline-block;
+    background: white;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.tip-card:hover{
+    transform: scale(1.05);
+}
+
+.avoid{
+    background: #ffe5e5;
+}
+
+.warning{
+    background: #fff3cd;
+    width: 70%;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 30px auto;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.back-btn{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    nav{
+    background: rgba(255,255,255,0.2);
+    padding: 15px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+nav{
+    background: rgba(255,255,255,0.2);
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border-radius: 0 0 20px 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    background: white;
+    color: #4CAF50;
+    transform: scale(1.1);
+}
+}
+footer{
+    text-align:center;
+    color:white;
+    padding:20px;
+    margin-top:40px;
+}
+.contact-form{
+    width: 60%;
+    margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact-form textarea{
+    height: 120px;
+}
+
+.contact-form button{
+    padding: 12px 25px;
+    background: #e41111;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover{
+    transform: scale(1.05);
+}
